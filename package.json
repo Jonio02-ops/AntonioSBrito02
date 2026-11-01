@@ -6,13 +6,24 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "studio": "remotion studio",
+    "render": "remotion render Chaplin out/chaplin.mp4",
+    "stills": "node scripts/stills.mjs",
+    "projetor": "bash scripts/gerar-projetor.sh"
   },
   "dependencies": {
-    "react-dom": "^19.2.0",
     "@google/genai": "^1.30.0",
+    "@remotion/bundler": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/google-fonts": "4.0.536",
+    "@remotion/renderer": "4.0.536",
+    "@remotion/studio": "4.0.536",
+    "@types/react": "19.3.0",
     "lucide-react": "^0.554.0",
-    "react": "^19.2.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "4.0.536"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
